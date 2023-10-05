@@ -1,0 +1,36 @@
+.introduction {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+  // background-color: #000c12;
+  background: radial-gradient(ellipse at center, var(--tw-gradient-stops)) from #0d1d25 to #000405;
+  svg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% + 300px);
+    path {
+      fill: #000c12;
+    }
+  }
+  p {
+    display: flex;
+    color: #e1e3e2;
+    font-size: 45px;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    span {
+      display: block;
+      width: 10px;
+      height: 10px;
+      background-color: #e1e3e2;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+}
